@@ -42,7 +42,6 @@
 					?>
             <tr>
                 <td data-th="<?= $block->escapeHtml(__('SKU')) ?>" class="col sku">
-                    <!--<strong class="product-item-sku"><?= $block->escapeHtml($_item->getSku()) ?></strong>-->
 					<strong class="product-item-sku">
 					<?php if ($showLink): ?>
 						<a href="<?= $block->escapeUrl($_item->getProductUrl()) ?>">
@@ -54,7 +53,6 @@
 				</strong>
                 </td>
                 <td data-th="<?= $block->escapeHtml(__('Product Name')) ?>" class="col item">
-               <!--     <strong class="product-item-name"><?= $block->escapeHtml($_item->getName()) ?></strong> -->
 					
 
 					<strong class="product-item-name">
