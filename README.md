@@ -10,7 +10,7 @@ $targetCategoryIds = [63]; // Add your category IDs here
 
 This approach is helpful when you want to <strong>control which grouped product listings include links</strong>, based on category relevance.
 
-##Note: 
+## Note: 
 
 If you prefer to add the link for all associated products regardless of category, simply remove the category condition and wrap the SKU in an <a> tag like this:
 ```
